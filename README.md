@@ -1,7 +1,3 @@
-Aqui está o texto organizado em **markdown**, de forma clara e objetiva, destacando a solicitação do cliente:
-
----
-
 # 📌 Solicitação do Cliente – Aplicação para Estimativa de Investimento em Franquias
 
 ## 🎯 Objetivo

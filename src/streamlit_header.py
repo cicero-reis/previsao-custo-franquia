@@ -1,8 +1,10 @@
 import streamlit as st
 
+total_de_registros = 10
+
 def streamlit_header(dados):
-    st.subheader("📊 Dados (Primeiras linhas)")
-    st.dataframe(dados.head(10), use_container_width=True)
+    st.subheader(f"📊 Visualização inicial dos dados (Top {total_de_registros} registros)")
+    st.dataframe(dados.head(total_de_registros), use_container_width=True)
 
     st.subheader("🔎 Realizar Previsão")
     valor = st.number_input(
